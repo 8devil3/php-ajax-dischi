@@ -1,0 +1,44 @@
+body {
+   background-color: #1E2D3B;
+   height: 100%;
+   min-height: 100vh;
+   padding: 6rem 1rem 2rem 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   color: white;
+   background-color: #2E3A46;
+   height: 4rem;
+}
+
+header img {
+    width: 2rem;
+    height: 2rem;
+}
+
+article {
+   color: white;
+   background-color: #2E3A46;
+   text-decoration: none;
+}
+
+article:hover {
+      color: #ccc;
+      background-color: #465464;
+}
+
+article h2 {
+   font-weight: 700;
+   font-size: 1rem;
+}
+
+article p {
+      color: #999;
+}

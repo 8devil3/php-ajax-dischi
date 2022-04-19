@@ -15,7 +15,7 @@
 <body>
 
    <?php
-      include __DIR__ . './data/data.php';
+      include_once __DIR__ . './data/data.php';
       include __DIR__ . './_partials/header.php';
       include __DIR__ . './_partials/main.php';
    ?>
